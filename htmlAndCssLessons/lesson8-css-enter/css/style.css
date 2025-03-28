@@ -1,0 +1,44 @@
+
+p:nth-child(3){
+    color: red;
+}
+
+span{
+    color: orange;
+}
+
+
+/* li:nth-child(4n-1){
+    color: green;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* more
+
+line 
+
+*/
+
+
+/* p{ */
+
+    /* text-align: justify;
+    color: rgb(61, 164, 136);
+    font-weight: bolder;
+    background-color: black;
+    font-size: 50px; */
+    /* font-family: 'Courier New', Courier, monospace,sans-serif; */
+    
+    /* line-height: 30px; */
+    /* word-spacing: 30px; */
+    /* letter-spacing: 30px; */
+/* } */
