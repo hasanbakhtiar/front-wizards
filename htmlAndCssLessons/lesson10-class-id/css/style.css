@@ -1,0 +1,16 @@
+/* p,li{
+    color: red;
+} */
+
+/* ol li, ul li{
+    color: red;
+} */
+
+.info-text  {
+  color: red;
+  background-color: black;
+}
+
+#item{
+    font-family: 'Courier New', Courier, monospace;
+}
