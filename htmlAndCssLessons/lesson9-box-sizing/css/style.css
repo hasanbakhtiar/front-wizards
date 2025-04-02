@@ -1,4 +1,45 @@
-.main-box{
+.box,.other-box{
+    display: inline-block;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px; */
+    /* margin: 100px 200px 300px 10px; */
+    /* padding: 100px; */
+}
+.other-box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+
+/* p{
+    text-transform: capitalize;
+} */
+
+/* .gallery{ */
+    /* background-color: red; */
+    /* width: 1000px; */
+    /* width: 70%;
+    height: 50vh; */
+/* } */
+
+
+/* img{
+    float: left;
+} */
+ 
+ 
+
+/* .main-box{
     width: 400px;
     height: 400px;
     background-color: black;
@@ -9,4 +50,5 @@
     width: 100px;
     height: 100px;
     background-color: red;
-}
+} */
+
