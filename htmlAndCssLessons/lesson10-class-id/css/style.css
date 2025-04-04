@@ -6,6 +6,14 @@
     color: red;
 } */
 
+img{
+    float: left;
+}
+
+.text{
+    clear: both;
+}
+
 .info-text  {
   color: red;
   background-color: black;
