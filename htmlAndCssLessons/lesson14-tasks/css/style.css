@@ -1,0 +1,190 @@
+p{
+  width: 400px;
+  height: 200px;
+  border: 1px solid #000;
+  overflow: scroll;
+}
+
+
+
+/* .product-con {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .card {
+    border: 1px solid #afafaf;
+    border-radius: 20px;
+    width: 30%;
+    height: 40vh;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: 20vh;
+      object-fit: cover;
+    }
+    .text-con{
+      padding: 20px;
+    }
+  }
+}
+
+.card-con {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .card {
+    width: 9%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+} */
+
+/* header{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(43, 128, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    p{
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+  nav{
+    width: 50%;
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      li{
+        list-style: none;
+        a{
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .btn-con{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+} */
+
+/* *{
+  color: #fff;
+  font-size: 30px;
+}
+.left-con *, .right-con *:not(.card-con){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 100vh;
+  .left-con{
+    width: 58%;
+    height: auto;
+    .top-box{
+      width: 100%;
+      height: 50px;
+      background-color: orange;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cent-box-con{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+      .left-box{
+        width: 65%;
+        height: 30vh;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .right-box{
+        width:30%;
+        height: 30vh;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .card-con{
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .card{
+        width: 30%;
+        height: 20vh;
+        background-color: blue;
+      }
+    }
+    .footer-box{
+      margin-top: 20px;
+      width: 100%;
+      height: 10vh;
+      background-color: grey;
+    }
+  }
+  .right-con{
+    width: 39%;
+    height: auto;
+    .top-box{
+      width: 100%;
+      height: 5vh;
+      background-color: orange;
+    }
+    .cent-box-con{
+      margin-top: 20px;
+      width: 100%;
+      height: 25vh;
+      background-color: orange;
+    }
+    .card-con{
+      width: 100%;
+      height: 36vh;
+      .card{
+        margin-top: 20px;
+        width: 100%;
+        height: 7vh;
+        background-color: blue;
+      }
+    }
+    .footer-box{
+      width: 100%;
+      height: 5vh;
+      background-color: grey;
+    }
+  }
+} */
