@@ -1,0 +1,77 @@
+
+.main-box{
+    width:50%;
+    height:20vh;
+    border: 1px dotted #000;
+    display:flex;
+     display:flex;
+    justify-content:space-between;
+
+    .left{
+        position:relative;
+         display:flex;
+         justify-content:space-between;
+        width:48%;
+        height:20vh;
+        .box{
+         background-color:red;
+         width:48%;
+         height:20vh;
+
+        }
+        .green{
+            position:absolute;
+            left:50px;
+            top:10px;
+            background-color:green;
+             width:48%;
+            height:20vh;
+
+        }
+    }
+     .right{
+        display:flex;
+        justify-content:space-between;
+        width:48%;
+        height:20vh;
+         .box{
+             background-color:red;
+             width:48%;
+              height:20vh;
+
+         }
+        }
+                                                                                                
+  }
+
+
+
+/* header{ */
+/*     top:0px; */
+/*     width:100%; */
+/*     height:70px; */
+/*     background-color:green; */
+/*     position:sticky; */
+/*     top:0; */
+/*     bottom:0; */
+/* } */
+
+/* .main-box{     */
+/*     width: 70%; */
+/*     height: 70vh; */
+/*     background-color:#000; */
+/*     position:relative; */
+/*     .con-box{ */
+/*         width:40%; */
+/*         height:40vh; */
+/*         background-color:green; */
+/*         .box{ */
+/*             position:absolute; */
+/*             right:100px; */
+/*             bottom:100px; */
+/*             width:100px; */
+/*             height:100px; */
+/*             background-color:red; */
+/*         } */
+/*     } */
+/* } */
