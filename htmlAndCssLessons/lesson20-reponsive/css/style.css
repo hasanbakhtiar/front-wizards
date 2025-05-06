@@ -1,0 +1,143 @@
+@import url(reset.css);
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #003;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    width: 30%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  nav {
+    width: 70%;
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      li{
+        a{
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .menu{
+    margin-right: 20px;
+    display: none;
+    background-color: #fff;
+    color: #003;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+}
+
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://www.lifewire.com/thmb/ZDCAQ8JnyQSGcLMzh7PG7DMrx6Q=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-942583674-671175c03466468ba734c9f062321334.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  .bg-color{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0,0,0,.4); */
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+      color: #fff;
+      font-size: 70px;
+      text-transform: uppercase;
+      background-color: #003;
+      padding: 30px;
+    }
+    
+  }
+}
+
+.service{
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    .box{
+      width: 32%;
+      height: 30vh;
+      background-color: #009;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:nth-child(1){
+        background-color: #e44c25;
+      }
+      &:nth-child(2){
+        background-color: #2094db;
+      }
+      &:nth-child(3){
+        background-color: #f7df1d;
+      }
+      h1{
+        color: #fff;
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+
+@media (max-width:700px){
+  header{
+    nav{
+      display: none;
+    }
+    .menu{
+      
+      display: block;
+    }
+  }
+  .hero{
+    .bg-color{
+      h1{
+        font-size: 40px;
+      }
+    }
+  }
+  .service{
+    .container{
+      flex-direction: column;
+      .box{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width:900px) {
+  
+}
+
+@media (min-width:1200px) {
+  
+}
