@@ -1,0 +1,16 @@
+header {
+  .top {
+    width: 100%;
+    height: 50px;
+    background-color: #06a096;
+    * {
+      color: #fff;
+    }
+    p {
+      margin: 0px;
+    }
+  }
+  .bg-body-aqua{
+        background-color: #00bbae;
+  }
+}
