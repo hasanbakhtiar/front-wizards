@@ -451,4 +451,28 @@ const furniture = [
 // console.log(infoTwo());
 
 
+// IIFE 
+// ((a)=> {
+//   console.log(a);
+// })("Hello IIFE")
 
+//
+// if(10>100){
+//   console.log("This is true")
+// }else if(200>2000){
+//   console.log("ok")
+// }else{
+//   console.log('out please');
+// }
+
+// ternary
+// 10>100 ? console.log("this is true") : 200<2000 ? console.log("ok") : console.log("out please")
+
+// alert("Hello");
+
+// const info = confirm("Bu emeliyyati etemeye eminsiz?");
+// if (info) {
+//   console.log("melumat ugurla sinidi")
+// }else{
+//   console.log('melumat sinmesi legv olundu')
+// }
