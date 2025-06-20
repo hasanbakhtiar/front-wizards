@@ -1,18 +1,47 @@
 
-const btn = document.querySelector('button');
-const menu = document.querySelector('menu');
 
 
-btn.onclick = ()=>{
-  if (menu.className==="open") {
-    menu.className="close";
-    btn.innerText =">";
-  } else {
-    menu.className="open";
-        btn.innerText ="X";
+const nav  = document.querySelector('nav');
+const modeBtn = document.querySelector('#mode');
 
-  }
+
+const changeMode = ()=>{
+    if (modeBtn.innerText==="Dark") {
+      nav.className="navbar navbar-expand-lg navbar-dark bg-dark";
+      modeBtn.innerText = "Light";
+    } else {
+      nav.className="navbar navbar-expand-lg navbar-light bg-light";
+      modeBtn.innerText = "Dark";
+
+    }
 }
+
+modeBtn.onclick = changeMode;
+
+
+
+
+
+
+
+
+
+
+
+// const btn = document.querySelector('button');
+// const menu = document.querySelector('menu');
+//
+//
+// btn.onclick = ()=>{
+//   if (menu.className==="open") {
+//     menu.className="close";
+//     btn.innerText =">";
+//   } else {
+//     menu.className="open";
+//         btn.innerText ="X";
+//
+//   }
+// }
 
 
 
