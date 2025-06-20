@@ -1,0 +1,43 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+menu{
+  background-color:#333;
+  color:#fff;
+  width:30%;
+  height:30vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition: 1s;
+}
+
+.open{
+
+  transform:translateX(0%);
+}
+
+.close{
+
+  transform:translateX(-110%);
+}
+
+
+
+
+
+
+/* .myblack { */
+/*   color: black; */
+/*   background-color: crimson; */
+/*   font-size: 30px; */
+/* } */
+/* .mygreen { */
+/*   color: green; */
+/*   background-color: black; */
+/*   font-size: 50px; */
+/* } */
+
+
+
+
