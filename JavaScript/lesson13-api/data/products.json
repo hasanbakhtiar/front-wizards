@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "title": "ASUS",
+      "price": 2000,
+      "color": "red"
+    },
+    {
+      "title": "Lenovo",
+      "price": 3000,
+      "color": "black"
+    }
+  ]
+}
