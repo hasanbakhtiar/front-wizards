@@ -33,7 +33,7 @@ const ProductForm = ({ editData, sendData }) => {
                         <label className="form-label">Description</label>
                         <input defaultValue={editData ? editData.descrition : ""} ref={descriptionRef} type="text" className="form-control" id="exampleInputPassword1" />
                     </div>
-                    <button type="submit" className="btn btn-warning">Create</button>
+                    <button type="submit" className="btn btn-warning">{editData?"Edit":"Add"}</button>
                 </form>
             </div>
         </div>
