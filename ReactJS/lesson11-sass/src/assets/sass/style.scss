@@ -1,0 +1,38 @@
+@use "mixin";
+@use "variables";
+
+@for $i from 1 through 5 {
+  li:nth-child(8n + #{$i}) {
+    background-color: lighten(variables.$mymavi, $i * 15%);
+  }
+}
+
+/* .con { */
+/*   ul { */
+/*     @include center; */
+/**/
+/*     li { */
+/*       color: $mymavi; */
+/**/
+/*       @if $mymavi ==blue { */
+/*         font-size: $mysize; */
+/*       } */
+/**/
+/*       @else { */
+/*         font-size: 12px-2px; */
+/*       } */
+/**/
+/*       ol { */
+/*         li { */
+/*           color: black; */
+/*         } */
+/*       } */
+/*     } */
+/*   } */
+/**/
+/*   .second { */
+/*     @include center; */
+/* @extend ul;
+*/
+/*   } */
+/* } */
